@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "UMD",
+    "outDir": "lib",
+    "sourceMap": true,
+    "skipLibCheck": true,
+
+    "declaration": true,
+    "declarationDir": "lib/declaration",
+    "declarationMap": true,
+
+    "strict": true,
+
+    "noEmitOnError": true,
+    "noErrorTruncation": true,
+    "noImplicitReturns": true,
+
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts"
+  ]
+}
