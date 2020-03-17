@@ -1,27 +1,31 @@
 {
   "name": "@luohuidong/url",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "The url module provides utilities for URL resolution and parsing. ",
+  "keywords": ["url parse", "url format"],
+  "homepage": "https://github.com/luohuidong/url#readme",
+  "bugs": {
+    "url": "https://github.com/luohuidong/url/issues",
+    "email": "luohuidong01@126.com"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "main": "lib/index.js",
-  "scripts": {
-    "test": "jest",
-    "test-watch": "jest --watch",
-    "build": "rm -rf lib && tsc"
+  "author": {
+    "name": "luohuidong",
+    "email": "luohuidong01@126.com"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luohuidong/url.git"
   },
-  "author": {
-    "name": "luohuidong",
-    "email": "luohuidong01@126.com"
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "build": "rm -rf lib && tsc"
   },
-  "bugs": {
-    "url": "https://github.com/luohuidong/url/issues",
-    "email": "luohuidong01@126.com"
-  },
-  "homepage": "https://github.com/luohuidong/url#readme",
-  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
