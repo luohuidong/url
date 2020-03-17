@@ -1,8 +1,11 @@
 {
   "name": "@luohuidong/url",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The url module provides utilities for URL resolution and parsing. ",
-  "keywords": ["url parse", "url format"],
+  "keywords": [
+    "url parse",
+    "url format"
+  ],
   "homepage": "https://github.com/luohuidong/url#readme",
   "bugs": {
     "url": "https://github.com/luohuidong/url/issues",
