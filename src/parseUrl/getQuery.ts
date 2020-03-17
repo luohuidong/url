@@ -1,5 +1,10 @@
 export default function getQuery(url: string) {
-  const regexp = /\?(.*)(?!#)/
+  let regexp = /\?(.*)/
+
+  if (url.includes('#')) {
+    regexp = /\?(.*)#/
+  }
+
   const result = regexp.exec(url)
 
   if (!result) {
