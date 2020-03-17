@@ -5,6 +5,7 @@
     "outDir": "lib",
     "sourceMap": true,
     "skipLibCheck": true,
+    "listEmittedFiles": true,
 
     "declaration": true,
     "declarationDir": "lib/declaration",
