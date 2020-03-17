@@ -15,9 +15,7 @@
 
     "noEmitOnError": true,
     "noErrorTruncation": true,
-    "noImplicitReturns": true,
-
-    "resolveJsonModule": true
+    "noImplicitReturns": true
   },
   "exclude": [
     "node_modules",
