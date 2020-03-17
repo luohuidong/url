@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES6",
-    "module": "UMD",
+    "module": "ES2015",
     "outDir": "lib",
     "sourceMap": true,
     "skipLibCheck": true,
