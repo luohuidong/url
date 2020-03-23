@@ -8,7 +8,6 @@
     "listEmittedFiles": true,
 
     "declaration": true,
-    "declarationDir": "lib/declaration",
     "declarationMap": true,
 
     "strict": true,
