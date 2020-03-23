@@ -6,6 +6,20 @@ The url module provides utilities for URL resolution and parsing.
 
 ![href structure](./href-structure.png)
 
+## yarn add @luohuidong/url
+
+Use npm:
+
+```bash
+npm i @luohuidong/url
+```
+
+Use yarn:
+
+```bash
+yarn add @luohuidong/url
+```
+
 ## How to use
 
 ```js
