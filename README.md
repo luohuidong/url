@@ -71,4 +71,22 @@ interface UrlObject {
 }
 
 let format: (urlObj: UrlObject) => string;
+
+```
+
+example:
+
+```ts
+
+const formattedurl = url.format({
+  protocol: 'https',
+  hostname: 'luohuidong.cn',
+  pathname: '/',
+  query: {
+    a: 'b',
+    c: 'd'
+  }
+}))
+
+// 'https://luohuidong.cn/?a=b&c=d'
 ```
